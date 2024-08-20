@@ -39,6 +39,7 @@
               'latest-card-title-color': 'rgba(24, 25, 31, 1)',
               'rating-card-span-color': 'rgba(35, 166, 240, 1)',
               'question-title-color': 'rgba(56, 56, 56, 1)',
+              'footer-bg-color': 'rgba(11, 13, 23, 1)',
             },
           },
         },
@@ -511,14 +512,14 @@
       </section>
       <!-- Frequently Asked Question related section -->
       <section class="mb-16 lg:mb-32">
-        <h3
-          class="text-5xl font-semibold mb-12 text-center  max-sm:mx-auto"
-        >
+        <h3 class="text-5xl font-semibold mb-12 text-center max-sm:mx-auto">
           Frequently Asked
           <span class="text-primary-btn">Questions</span>
         </h3>
         <!-- Frequently section flex container  -->
-        <div class="flex justify-between items-center lg:gap-x-40 md:gap-20 mt-16 lg:mt-32 max-sm:flex-col max-sm:space-y-10">
+        <div
+          class="flex justify-between items-center lg:gap-x-40 md:gap-20 mt-16 lg:mt-32 max-sm:flex-col max-sm:space-y-10"
+        >
           <!-- Frequently image container -->
           <div>
             <img
@@ -533,13 +534,15 @@
             <div class="collapse collapse-arrow shadow-sm border">
               <input type="radio" name="my-accordion-2" checked="checked" />
               <div
-                class="collapse-title text-xl font-medium text-question-title-color  max-sm:w-full"
+                class="collapse-title text-xl font-medium text-question-title-color max-sm:w-full"
               >
                 What are the most important things I should know about riding a
                 bike?
               </div>
               <div class="collapse-content">
-                <p class="text-base font-normal text-desc-primary w-4/5 max-sm:w-full">
+                <p
+                  class="text-base font-normal text-desc-primary w-4/5 max-sm:w-full"
+                >
                   Safety First! Always obey the rules of the road. Obey all
                   traffic signals, signs, and laws. Get in the mindset of
                   “driving” your bike—not just “riding” your bike. This will
@@ -550,7 +553,10 @@
             <!-- Accordion 2 -->
             <div class="collapse collapse-arrow shadow-sm border">
               <input type="radio" name="my-accordion-2" />
-              <div class="collapse-title  text-xl font-medium text-question-title-color max-sm:w-full">How can I tell if my helmet is old and I need a new one?
+              <div
+                class="collapse-title text-xl font-medium text-question-title-color max-sm:w-full"
+              >
+                How can I tell if my helmet is old and I need a new one?
               </div>
               <div class="collapse-content">
                 <p class="font-normal text-desc-primary">Yes!</p>
@@ -560,7 +566,10 @@
             <!-- Accordion 3 -->
             <div class="collapse collapse-arrow shadow-sm border">
               <input type="radio" name="my-accordion-2" />
-              <div class="collapse-title  text-xl font-medium text-question-title-color max-sm:w-full">My bike has been in storage is it safe to ride?
+              <div
+                class="collapse-title text-xl font-medium text-question-title-color max-sm:w-full"
+              >
+                My bike has been in storage is it safe to ride?
               </div>
               <div class="collapse-content">
                 <p class="font-normal text-desc-primary">Yes!</p>
@@ -570,7 +579,10 @@
             <!-- Accordion 4 -->
             <div class="collapse collapse-arrow shadow-sm border">
               <input type="radio" name="my-accordion-2" />
-              <div class="collapse-title  text-xl font-medium text-question-title-color max-sm:w-full">What rules should I follow when riding my bike?
+              <div
+                class="collapse-title text-xl font-medium text-question-title-color max-sm:w-full"
+              >
+                What rules should I follow when riding my bike?
               </div>
               <div class="collapse-content">
                 <p class="font-normal text-desc-primary">Yes!</p>
@@ -581,6 +593,32 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="footer max-sm:w-full bg-footer-bg-color text-neutral-content p-14">
+      <!-- footer section container  -->
+      <div class="w-11/12 m-auto lg:w-8/12 flex justify-between items-center max-sm:flex-col max-sm:space-y-14">
+        <aside class="max-sm:mx-auto">
+          <div class="flex space-x-6">
+            <p class="text-base font-normal">Download Now</p>
+            <p class="text-base font-normal">License</p>
+          </div>
+          <div class="flex space-x-6 mt-3 md:space-x-2 max-sm:space-x-2">
+            <p class="text-base font-normal">About</p>
+            <p class="text-base font-normal">Features</p>
+            <p class="text-base font-normal">Pricing</p>
+            <p class="text-base font-normal">Careers</p>
+            <p class="text-base font-normal ">Help</p>
+              <p class="text-base font-normal">Privacy</p>
+          </div>
+          <p class="text-base font-normal text-slate-400 mt-3">© 2020 bike. All rights reserved</p>
+        </aside>
+        <nav>
+          <h6 class="footer-title text-lg font-medium text-slate-50 mb-5">Get the App</h6>
+          <div class="space-y-4">
+            <img src="./images/others/ios.png" alt="">
+            <img src="./images/others/android.png" alt="">
+          </div>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>
