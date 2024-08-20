@@ -37,6 +37,8 @@
               'primary-btn': 'rgba(231, 111, 81, 1)',
               'desc-primary': 'rgba(108, 108, 108, 1)',
               'latest-card-title-color': 'rgba(24, 25, 31, 1)',
+              'rating-card-span-color': 'rgba(35, 166, 240, 1)',
+              'question-title-color': 'rgba(56, 56, 56, 1)',
             },
           },
         },
@@ -236,23 +238,33 @@
         </div>
       </section>
       <!-- Latest bike related section  -->
-      <section class="my-16 lg:my-32">
+      <section class="mb-16 lg:mb-32">
         <h3 class="text-2xl font-semibold text-center mb-12 lg:text-5xl">
           latest News
         </h3>
         <!-- latest card grid container  -->
-        <div class="grid grid-cols-1 space-y-5 lg:space-y-0 md:grid-cols-2 lg:grid-cols-3">
+        <div
+          class="grid grid-cols-1 space-y-5 lg:space-y-0 md:grid-cols-2 lg:grid-cols-3"
+        >
           <!-- card 1 -->
-          <div class="card w-96 shadow-md border pt-4  ">
+          <div class="card w-96 shadow-md border pt-4">
             <figure>
-              <img class="max-w-full m-auto"
+              <img
+                class="max-w-full m-auto"
                 src="./images/others/latest1.png"
                 alt="latest bike"
               />
             </figure>
             <div class="card-body">
-              <h2 class="card-title text-3xl font-semibold text-latest-card-title-color">Ducati XDIAVEL S-73</h2>
-              <p class="w-4/5 text-base font-normal text-desc-primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <h2
+                class="card-title text-3xl font-semibold text-latest-card-title-color"
+              >
+                Ducati XDIAVEL S-73
+              </h2>
+              <p class="w-4/5 text-base font-normal text-desc-primary">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
               <div class="card-actions mt-8 lg:mt-14">
                 <div class="">
                   <a
@@ -264,38 +276,305 @@
             </div>
           </div>
           <!-- card 2 -->
-          <div class="card w-96 shadow-md border pt-4 ">
+          <div class="card w-96 shadow-md border pt-4">
             <figure>
-              <img class="max-w-full m-auto"
+              <img
+                class="max-w-full m-auto"
                 src="./images/others/latest2.png"
                 alt="latest bike"
               />
             </figure>
             <div class="card-body">
-              <h2 class="card-title text-3xl font-semibold text-latest-card-title-color">Motorcycles & Scooters</h2>
-              <p class="w-4/5 text-base font-normal text-desc-primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <h2
+                class="card-title text-3xl font-semibold text-latest-card-title-color"
+              >
+                Motorcycles & Scooters
+              </h2>
+              <p class="w-4/5 text-base font-normal text-desc-primary">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
               <div class="card-actions mt-8 lg:mt-14">
                 <div class="">
-                  <button class="btn btn-outline lg:px-10 pb-1  text-xl font-medium border-primary-btn text-primary-btn">Read More</button>
+                  <button
+                    class="btn btn-outline lg:px-10 pb-1 text-xl font-medium border-primary-btn text-primary-btn"
+                  >
+                    Read More
+                  </button>
                 </div>
               </div>
             </div>
           </div>
           <!-- card 3 -->
-          <div class="card w-96 shadow-md border pt-4 ">
+          <div class="card w-96 shadow-md border pt-4">
             <figure>
-              <img class="max-w-full m-auto"
+              <img
+                class="max-w-full m-auto"
                 src="./images/others/latest3.png"
                 alt="latest bike"
               />
             </figure>
             <div class="card-body">
-              <h2 class="card-title text-3xl font-semibold text-latest-card-title-color">2021 Honda CBR500R</h2>
-              <p class="w-4/5 text-base font-normal text-desc-primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <h2
+                class="card-title text-3xl font-semibold text-latest-card-title-color"
+              >
+                2021 Honda CBR500R
+              </h2>
+              <p class="w-4/5 text-base font-normal text-desc-primary">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
               <div class="card-actions mt-8 lg:mt-14">
                 <div class="">
-                  <button class="btn btn-outline lg:px-10 pb-1  text-xl font-medium border-primary-btn text-primary-btn">Read More</button>
+                  <button
+                    class="btn btn-outline lg:px-10 pb-1 text-xl font-medium border-primary-btn text-primary-btn"
+                  >
+                    Read More
+                  </button>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Happy client related section  -->
+      <section class="mb-16 lg:mb-32">
+        <!-- section title  -->
+        <h3
+          class="text-5xl font-semibold mb-12 text-center max-sm:w-2/3 max-sm:mx-auto"
+        >
+          Happy <span class="text-primary-btn">Clients says</span>
+        </h3>
+        <!-- Happy client section grid container  -->
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 space-y-5 lg:space-y-0"
+        >
+          <!-- card 1 -->
+          <div class="card w-96 shadow-sm border">
+            <figure class="px-10 pt-10">
+              <img
+                class="m-auto w-2/3"
+                src="./images/others/user-1.png"
+                alt="user-image"
+                class="rounded-xl"
+              />
+            </figure>
+            <div class="card-body items-center text-center space-y-2">
+              <p class="text-base font-normal text-desc-primary w-5/6">
+                Slate helps you see how many more days you need to work to reach
+                your financial goal for the month and year.
+              </p>
+              <!-- rating -->
+              <div class="rating space-x-2">
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked="checked"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked="checked"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked="checked"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-200"
+                />
+              </div>
+              <span class="text-base font-semibold text-rating-card-span-color"
+                >Regina Miles</span
+              >
+              <span class="text-sm font-semibold">Banker</span>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="card w-96 shadow-sm border">
+            <figure class="px-10 pt-10">
+              <img
+                class="m-auto w-2/3"
+                src="./images/others/user-2.png"
+                alt="user-image"
+                class="rounded-xl"
+              />
+            </figure>
+            <div class="card-body items-center text-center space-y-2">
+              <p class="text-base font-normal text-desc-primary w-5/6">
+                Slate helps you see how many more days you need to work to reach
+                your financial goal for the month and year.
+              </p>
+              <!-- rating -->
+              <div class="rating space-x-2">
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked="checked"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked="checked"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked="checked"
+                />
+                <div class="">
+                  <input
+                    type="radio"
+                    name="rating-2"
+                    class="mask mask-star-2 bg-orange-200"
+                  />
+                </div>
+              </div>
+              <span class="text-base font-semibold text-rating-card-span-color"
+                >Regina Miles</span
+              >
+              <span class="text-sm font-semibold">Banker</span>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="card w-96 shadow-sm border">
+            <figure class="px-10 pt-10">
+              <img
+                class="m-auto w-2/3"
+                src="./images/others/user-3.png"
+                alt="user-image"
+                class="rounded-xl"
+              />
+            </figure>
+            <div class="card-body items-center text-center space-y-2">
+              <p class="text-base font-normal text-desc-primary w-5/6">
+                Slate helps you see how many more days you need to work to reach
+                your financial goal for the month and year.
+              </p>
+              <!-- rating -->
+              <div class="rating space-x-2">
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked="checked"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked="checked"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked="checked"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+              </div>
+              <span class="text-base font-semibold text-rating-card-span-color"
+                >Regina Miles</span
+              >
+              <span class="text-sm font-semibold">Banker</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Frequently Asked Question related section -->
+      <section class="mb-16 lg:mb-32">
+        <h3
+          class="text-5xl font-semibold mb-12 text-center  max-sm:mx-auto"
+        >
+          Frequently Asked
+          <span class="text-primary-btn">Questions</span>
+        </h3>
+        <!-- Frequently section flex container  -->
+        <div class="flex justify-between items-center lg:gap-x-40 md:gap-20 mt-16 lg:mt-32 max-sm:flex-col max-sm:space-y-10">
+          <!-- Frequently image container -->
+          <div>
+            <img
+              class="max-w-full m-auto"
+              src="./images/others/faq.png"
+              alt=""
+            />
+          </div>
+          <!-- Asked Question container  -->
+          <div class="space-y-5 w-[552px] max-sm:w-full">
+            <!-- Accordion 1 -->
+            <div class="collapse collapse-arrow shadow-sm border">
+              <input type="radio" name="my-accordion-2" checked="checked" />
+              <div
+                class="collapse-title text-xl font-medium text-question-title-color  max-sm:w-full"
+              >
+                What are the most important things I should know about riding a
+                bike?
+              </div>
+              <div class="collapse-content">
+                <p class="text-base font-normal text-desc-primary w-4/5 max-sm:w-full">
+                  Safety First! Always obey the rules of the road. Obey all
+                  traffic signals, signs, and laws. Get in the mindset of
+                  “driving” your bike—not just “riding” your bike. This will
+                  help you be a more focused and legally compliant bike rider.
+                </p>
+              </div>
+            </div>
+            <!-- Accordion 2 -->
+            <div class="collapse collapse-arrow shadow-sm border">
+              <input type="radio" name="my-accordion-2" />
+              <div class="collapse-title  text-xl font-medium text-question-title-color max-sm:w-full">How can I tell if my helmet is old and I need a new one?
+              </div>
+              <div class="collapse-content">
+                <p class="font-normal text-desc-primary">Yes!</p>
+                <p class="font-normal text-desc-primary">No!</p>
+              </div>
+            </div>
+            <!-- Accordion 3 -->
+            <div class="collapse collapse-arrow shadow-sm border">
+              <input type="radio" name="my-accordion-2" />
+              <div class="collapse-title  text-xl font-medium text-question-title-color max-sm:w-full">My bike has been in storage is it safe to ride?
+              </div>
+              <div class="collapse-content">
+                <p class="font-normal text-desc-primary">Yes!</p>
+                <p class="font-normal text-desc-primary">No!</p>
+              </div>
+            </div>
+            <!-- Accordion 4 -->
+            <div class="collapse collapse-arrow shadow-sm border">
+              <input type="radio" name="my-accordion-2" />
+              <div class="collapse-title  text-xl font-medium text-question-title-color max-sm:w-full">What rules should I follow when riding my bike?
+              </div>
+              <div class="collapse-content">
+                <p class="font-normal text-desc-primary">Yes!</p>
+                <p class="font-normal text-desc-primary">No!</p>
               </div>
             </div>
           </div>
