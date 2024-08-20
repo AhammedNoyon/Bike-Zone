@@ -36,6 +36,7 @@
               'primary-bg': 'rgba(231, 111, 81, 0.1)',
               'primary-btn': 'rgba(231, 111, 81, 1)',
               'desc-primary': 'rgba(108, 108, 108, 1)',
+              'latest-card-title-color': 'rgba(24, 25, 31, 1)',
             },
           },
         },
@@ -91,7 +92,7 @@
         </div>
       </nav>
       <!-- Hero section carousel container  -->
-      <div class="carousel w-full">
+      <div class="carousel w-full mt-6 md:mt-9 lg:mt-13">
         <!-- slider 1 -->
         <div id="slide1" class="carousel-item relative w-full">
           <!-- carousel content container  -->
@@ -213,7 +214,7 @@
         </div>
         <!-- Feature Bikes section grid container  -->
         <div class="grid max-sm:grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-32">
-          <div class=" filter grayscale">
+          <div class="filter grayscale">
             <img
               class="max-w-full m-auto"
               src="./images/others/feature-bike.png"
@@ -225,12 +226,78 @@
             src="./images/others/feature-bike.png"
             alt="this is a r15 bike image for feature section"
           />
-          <div class=" filter grayscale">
+          <div class="filter grayscale">
             <img
               class="max-w-full m-auto"
               src="./images/others/feature-bike.png"
               alt="this is a r15 bike image for feature section"
             />
+          </div>
+        </div>
+      </section>
+      <!-- Latest bike related section  -->
+      <section class="my-16 lg:my-32">
+        <h3 class="text-2xl font-semibold text-center mb-12 lg:text-5xl">
+          latest News
+        </h3>
+        <!-- latest card grid container  -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <!-- card 1 -->
+          <div class="card w-96 shadow-md border pt-4 max-sm:mb-5">
+            <figure>
+              <img class="max-w-full m-auto"
+                src="./images/others/latest1.png"
+                alt="latest bike"
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-3xl font-semibold text-latest-card-title-color">Ducati XDIAVEL S-73</h2>
+              <p class="w-4/5 text-base font-normal text-desc-primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <div class="card-actions mt-8 lg:mt-14">
+                <div class="">
+                  <a
+                    class="btn flex lg:px-10 pb-1 bg-primary-btn text-xl text-white font-medium"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="card w-96 shadow-md border pt-4 max-sm:mb-5">
+            <figure>
+              <img class="max-w-full m-auto"
+                src="./images/others/latest2.png"
+                alt="latest bike"
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-3xl font-semibold text-latest-card-title-color">Motorcycles & Scooters</h2>
+              <p class="w-4/5 text-base font-normal text-desc-primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <div class="card-actions mt-8 lg:mt-14">
+                <div class="">
+                  <button class="btn btn-outline lg:px-10 pb-1  text-xl font-medium border-primary-btn text-primary-btn">Read More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card  -->
+          <div class="card w-96 shadow-md border pt-4 max-sm:mb-5 md:mt-5">
+            <figure>
+              <img class="max-w-full m-auto"
+                src="./images/others/latest3.png"
+                alt="latest bike"
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-3xl font-semibold text-latest-card-title-color">2021 Honda CBR500R</h2>
+              <p class="w-4/5 text-base font-normal text-desc-primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <div class="card-actions mt-8 lg:mt-14">
+                <div class="">
+                  <button class="btn btn-outline lg:px-10 pb-1  text-xl font-medium border-primary-btn text-primary-btn">Read More</button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
